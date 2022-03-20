@@ -1,0 +1,89 @@
+.sidebar{
+    flex:2.3;
+    height:calc(100vh - 75px);
+    padding:10px;
+    overflow-y: scroll;
+position:sticky;
+top:75px;
+}
+.sidebar::-webkit-scrollbar{
+width:5px;
+}
+.sidebar::-webkit-scrollbar-track{
+    background-color: rgb(207, 207, 207);
+    border-radius: 5px;
+}
+.sidebar::-webkit-scrollbar-thumb{
+    background-color: rgb(148, 148, 148);
+    border-radius: 5px;
+}
+.sidebar::-webkit-scrollbar-thumb:hover{
+    box-shadow: -1px -1px 14px -1px rgba(128,128,128,0.79);
+    background-color: rgb(104, 102, 102);
+}
+.feedlist{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding-left:  10px;
+}
+.list>li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.icons{
+margin-right: 10px;
+font-size: 25px !important;
+}
+hr{
+    border-top: 1px solid rgb(141, 141, 141);
+}
+.buttn:focus{
+outline:none !important
+}
+.buttn:hover{
+    background-color: rgb(192, 192, 192) !important;
+}
+.buttn{
+    color: black    !important;
+    font-weight: bold !important;
+    background-color: rgb(211, 211, 211) !important;
+}
+.fdiv{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding-left:  10px;
+}
+.fitems{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 600;
+    padding: 8px;
+}
+.fitems>img{
+    width:35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+margin-right: 10px;
+cursor: pointer;
+}
+.online{
+    display:flex;
+    align-items: center;
+}
+.online>h5{
+    font-weight: 600 !important;
+}
+.onlineicon{
+    font-size: 17px !important;
+    margin-bottom: 5px !important;
+    margin-left: 5px;
+    color:rgb(10, 175, 10) !important
+}

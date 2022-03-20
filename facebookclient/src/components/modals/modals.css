@@ -1,0 +1,62 @@
+.css-6hp17o-MuiList-root-MuiMenu-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-top: 3px !important;
+    padding-bottom: 0px !important;
+    outline: 0;
+    width:100px;
+}
+.divedit{
+    width:100px !important;
+}
+.divmain{
+    width:100%
+}
+.deletetext{
+    color: brown !important;
+    display: flex;
+    align-items: center;
+}
+.warn{
+    font-size: 22px !important;
+}
+.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+    opacity: 1;
+    transform: none;
+    max-height: 216px;
+    width: 10ch !important;
+    transition: opacity 232ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, transform 155ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    top: 142px;
+    left: 694px;
+    transform-origin: 0px 0px;
+}.css-78trlr-MuiButtonBase-root-MuiIconButton-root:focus{
+    outline:none !important;
+}
+.MuiDialogTitle-root+.css-ypiqx9-MuiDialogContent-root {
+    padding-top: 0;
+    width: 100% !important;
+}
+.dialogtitle{
+    display:flex;
+    align-items: center;
+}
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root:focus {
+   outline:none !important;
+}
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+    color: #3a3a9a !important;
+    font-weight: bold !important;
+}
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root.deletebtn{
+    color: rgb(216, 43, 43) !important;
+}
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root.canclebtn{
+    color: green !important;
+}
+
+.dialogtitle1{
+    display:flex;
+    justify-content: space-between;
+}

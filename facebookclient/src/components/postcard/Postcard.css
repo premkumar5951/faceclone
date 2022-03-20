@@ -1,0 +1,89 @@
+.postimg{
+    width:35px;
+    height:35px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.postcard{
+    margin-top: 15px;
+    padding:10px;
+    -webkit-box-shadow: 0px 0px 33px -13px rgba(125,125,125,1);
+-moz-box-shadow: 0px 0px 33px -13px rgba(125,125,125,1);
+box-shadow: 0px 0px 33px -13px rgba(125,125,125,1);
+border-radius: 10px;
+}
+.posttop{
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.username{
+    font-size: 15px;
+    font-weight: 600;
+    margin:10px;
+    cursor: pointer;
+}
+.posttime{
+    font-size: 11px;
+    font-weight: 600;
+    color: rgb(153, 153, 153);
+}
+.postdesc{
+    margin:0px ;
+}
+.mainimg{ 
+    width:100%;
+    margin: auto;
+    max-height: 450px;
+    object-fit: contain;
+    border-radius: 5px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.mainimgdiv{
+    display: flex;
+    justify-content: center;
+}
+.postbottom{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.postleft{
+    display: flex;
+    align-items: center;
+}
+.postlike{
+    width:20px;
+    height:20px;
+    margin: 0.5px;
+    cursor: pointer;
+}
+.postlove{
+    width:18px;
+    height:18px;
+    margin: 0.5px;
+    cursor: pointer;
+}
+.likecount{
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(107, 107, 107);
+    margin-left: 10px;
+}
+.commentcount{
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(107, 107, 107);
+    cursor: pointer;
+}
+.outertop{
+    display: flex;
+    justify-content: space-between;
+}
+.dots{
+    cursor: pointer;
+}

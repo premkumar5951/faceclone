@@ -1,0 +1,103 @@
+.login{
+    background-color: #ebebeb;
+    height:calc(100vh - 75px);
+}
+.loginwrapper{
+    display: flex;
+    height:calc(100vh - 100px);
+    width:80%;
+    margin:auto;
+}
+.leftlogin{
+flex:1;
+}
+.rightlogin{
+    flex:1;
+}
+.leftlogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftcontent{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.leftcontent >h1{
+
+    color: #4267b2;
+    font-size: 45px;
+}
+.loginform{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+.progress{
+  
+    font-size: 20px !important;
+}
+form{
+    width: 60%;
+    height:auto;
+    padding: 30px;
+    border-radius: 20px;
+    -webkit-box-shadow: -1px 1px 19px 5px rgb(204, 204, 204);
+-moz-box-shadow: -1px 1px 19px 5px rgba(204,204,204,1);
+box-shadow: -1px 1px 19px 5px rgba(204,204,204,1);
+background-color: #ffffff;
+}
+
+.rightlogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginform >input{
+margin: 6px;
+border-radius: 15px;
+padding:7px;
+padding-left: 10px;
+font-size: 13px;
+width:100%;
+border:1px solid rgb(121, 121, 121);
+}
+.loginform> input:focus{
+outline: none;
+box-shadow: inset 0px -1px 5px 1px rgba(152, 202, 248, 0.575);
+transform: scale(101%);
+}
+.loginform>p{
+    margin: 0px;
+    font-size: 12px;
+    color:rgb(2, 91, 255);
+    font-weight:bold;
+}
+.loginform>a{
+    text-decoration: none;
+}
+.cbtn{
+    padding:5px;
+    border-radius: 6px;
+    font-size: 14px;
+    color: rgb(236, 236, 236);
+    border:none;
+    outline: none;
+    font-weight: bold;
+}
+.cbtn:hover{
+    outline: none;
+    cursor: pointer;
+
+}
+.logbtn{
+    width: 100%;
+}
+.createbtn{
+    width:102%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

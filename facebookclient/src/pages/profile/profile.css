@@ -1,0 +1,206 @@
+.profile{
+    display: flex;
+    
+}
+.profileright{
+    display:flex;
+    flex-direction: column;
+    /* display */
+    flex:9.7;
+    padding:30px;
+    padding-top: 0px;
+}
+.profilebottom{
+    display:flex;
+}
+.coverimg{
+    width:100%;
+    max-height:300px ;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+}
+.proimg{
+    width:130px;
+    height:130px;
+    object-fit: cover;
+    border-radius:50%;
+    border:3px white solid;
+    position: absolute;
+    align-self: center;
+    transform: translateY(62%);
+}.profiletop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: -4px 16px 70px -21px rgba(166,166,166,0.75);
+-moz-box-shadow: -4px 16px 70px -21px rgba(166,166,166,0.75);
+box-shadow: -4px 16px 70px -21px rgba(166,166,166,0.75);
+}
+.prohead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    transform: translateY(50%);
+}
+.intro{
+    color: rgb(116, 116, 116);
+    font-size: 13px;
+}
+.proname{
+    font-size: 20px;
+}
+.invisible{
+    height:60px;
+}
+/* .camera {
+    position: relative;
+    top: -119px;
+    left: 61px;
+    font-size: 34px !important;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    -webkit-box-shadow: -4px 16px 70px -21px rgba(166,166,166,0.75);
+-moz-box-shadow: -4px 16px 70px -21px rgba(166,166,166,0.75);
+box-shadow: -4px 16px 70px -21px rgba(166,166,166,0.75);
+} */
+.propic {
+    display: flex !important;
+    position: relative !important;
+    top: -112px !important;
+    left: 59px !important;
+    align-items: center !important;
+    font-size: 22px !important;
+    background-color: white;
+    padding: 16px;
+    background-color: #ffffffa6;
+    justify-content: center;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    -webkit-box-shadow: -4px 16px 70px -21px rgb(166 166 166 / 75%);
+    -moz-box-shadow: -4px 16px 70px -21px rgba(166,166,166,0.75);
+    box-shadow: -4px 16px 70px -21px rgb(166 166 166 / 75%);
+    cursor: pointer;
+}
+.cameraIcon{
+    display: flex !important;
+}
+.inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 47%;
+    text-align: center;
+}
+.folllowdiv {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    position: relative;
+    left: -34px;
+    bottom: 55px;
+}
+.followbtn{
+    border-radius:45px;
+    font-size: 15px;
+    background-color: blue;
+}
+.followbtn:focus{
+    box-shadow: none !important;
+    outline: none;
+}
+.innertxt{
+    display:flex;
+align-items: center;
+justify-content: center;
+}
+/* Upload Modal */
+.uploadfile{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.selectbox{
+    font-weight: bold;
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+    padding:5px 10px ;
+    border-radius: 50px;
+    font-size:14px;
+    letter-spacing: 2px;
+}
+.selectbox:hover{
+opacity: 0.7;
+}
+.selectedpic{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(92, 92, 92);
+    letter-spacing: 2px;
+}
+.viewpic{
+    width:100%;
+    border-radius: 20px;
+    max-height:250px;
+    object-fit: contain;
+}
+.canclepic{
+    background-color: blue;
+    color:aliceblue;
+    padding:5px 10px;
+    border-radius: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+.canclepic:hover{
+opacity:0.7
+}
+.nophoto{
+    font-size: 100px !important;
+    opacity:0.6;
+}
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.87);
+    -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+    box-shadow: 0px 11px 15px -7px rgb(0 0 0 / 20%), 0px 24px 38px 3px rgb(0 0 0 / 14%), 0px 9px 46px 8px rgb(0 0 0 / 12%);
+    margin: 32px;
+    position: relative;
+    overflow-y: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 50%;
+    max-height: calc(100% - 64px);
+    max-width: 600px;
+}
+.updatedtext{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.doneicon{
+    font-size: 28px !important;
+    margin:0px 5px;
+}

@@ -1,0 +1,114 @@
+.topbar{
+    display:flex;
+    width:100%;
+    height:50px;
+    background-color: #4267b2;
+    align-items: center;
+    color:white;
+    position:sticky;
+    top:0px;
+    z-index:50;
+}
+
+.lefttop{
+    flex:2;
+    margin-left: 20px;
+}
+.lefttop>h3{
+    font-size: 25px;
+    margin: 0;
+    cursor: pointer;
+}
+.centertop{
+    display: flex;
+    flex:5;
+}
+.righttop{
+    flex:4;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+div.image > img{
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.texts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.texts > p{
+    margin: 0;
+    margin-right: 10px;
+    font-weight:400;
+    cursor: pointer;
+}
+.texts>p>a{
+    text-decoration: none;
+    color:rgb(202, 202, 202) !important;
+}
+.texts>p>a.active{
+color:white !important;
+}
+.lefttop>h3>strong>a{
+    text-decoration: none;
+    color:white
+}
+.search{
+    width:100%;
+    border-radius: 25px;
+    padding-left: 30px;
+    border: none;
+    height:30px;
+    font-size: 15px;
+}
+.search:focus{
+outline: none;
+box-shadow: inset 0px -1px 5px 1px rgb(185, 184, 184);
+transform: scale(101%);
+}
+
+.searchicon {
+    color: rgb(63, 63, 63);
+    position: relative;
+    left: 26px;
+    top: 5px;
+    font-size: 21px !important;
+    z-index: 10;
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+.icons >.icon{
+    margin-right: 10px;
+}
+.icondiv{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: red;
+    position: relative;
+    top: -10px;
+    left: -11px;
+    border-radius: 50%;
+    font-size: 12px;
+    width: 15px;
+    height: 15px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logbox{
+    display:flex;
+    align-items:center;
+    justify-content: flex-start;
+}

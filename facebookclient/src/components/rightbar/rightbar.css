@@ -1,0 +1,104 @@
+.rightbar{
+    flex:3.5
+}
+
+.birthdayimg{
+    width:35px;
+    height:35px;
+    cursor: pointer;
+}
+.birthday{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.ad{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    position: sticky;
+    top:20%;
+}
+.adimg{
+    width:100%;
+    max-height: 250px;
+    object-fit: contain;
+    cursor: pointer;
+}
+.adtext{
+    display: flex;
+    align-items: center;
+    margin: 0px !important; cursor: pointer;
+}
+.arrow{
+    font-size: 14px !important;
+}
+.fitems1{
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 5px;
+    cursor: pointer;
+    align-items: flex-start;
+    color:black
+}
+.fitems1> img{
+width:80px;
+height:80px;
+border-radius: 5px;
+cursor: pointer;
+}
+.flists1{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.fdiv2{
+
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 33px -13px rgba(125,125,125,1);
+-moz-box-shadow: 0px 0px 33px -13px rgba(125,125,125,1);
+box-shadow: 0px 0px 33px -13px rgba(125,125,125,1);
+}
+.userinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.nofollower{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}.nofollower>span{
+    position: relative;
+    top:-25px;
+    font-weight: bold;
+    opacity:0.7
+}
+.nofollowericon{
+    font-size: 100px !important;
+    opacity:0.6
+}
+.info{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+.profilepage{
+    padding:15px
+}
+.followhead{
+    font-weight: bold;
+    font-size: 16px !important;
+}
+.flists1>a{
+    text-decoration: none;
+    color:blue
+}
